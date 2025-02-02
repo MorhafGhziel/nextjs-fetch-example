@@ -37,7 +37,7 @@ export default async function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="flex justify-center">
-          <h1 className="text-[30px]">{data.full_name}</h1>
+          <h1 className="text-[30px] font-bold">{data.full_name}</h1>
         </div>
         {children}
       </body>

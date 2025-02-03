@@ -41,7 +41,7 @@ export default async function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="flex justify-center">
-          <h1 className="text-[30px] font-bold">{data.dateTime}</h1>
+          <h1 className="text-[30px] -bold">{data.dateTime}</h1>
         </div>
         {children}
       </body>
